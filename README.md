@@ -10,6 +10,12 @@ Pour chaque classe listée précedemment, on créé un objet Classe, qui a pour 
 
 La classe Attribut qui implémente l'interface IAttribut ayant pour méthodes `getType()` et `getName()`. La méthode `getType()` retourne le type de l'attribut et la méthode `getNom()` retourne le nom de l'attribut.
 
+
+Ci joint un diagramme UML représentant l'extracteur de données:
+
+![diagrammeUML](ToUMLExecution.jpg)
+
+
 Ces interfaces forment un modèle de données qui est ensuite représenté sous la forme d'un fichier SVG ou de texte.
 L'interface `Drawable` sera donc implémentée par ces deux procédés.
 
@@ -18,9 +24,7 @@ de graphique 2D issu de java.awt et le transforme en fichier SVG. Cela demande d
 
 Afin d'organiser la représentation les relations d'héritages, d'aggrégation et de composition - qui impliquent des flèches - les classes seront organisés par étage, après pré-calcul de la taille de la réprésentation de chaque classe.
 
-Ci joint un diagramme UML représentant l'extracteur de données:
 
-![diagrammeUML](ToUMLExecution.jpg)
   
 
 
