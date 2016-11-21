@@ -18,9 +18,9 @@ de graphique 2D issu de java.awt et le transforme en fichier SVG. Cela demande d
 
 Afin d'organiser la représentation les relations d'héritages, d'aggrégation et de composition - qui impliquent des flèches - les classes seront organisés par étage, après pré-calcul de la taille de la réprésentation de chaque classe.
 
+Ci joint un diagramme UML représentant l'extracteur de données:
 
-
-
+![diagrammeUML](ToUMLExecution.jpg)
   
 
 
