@@ -6,7 +6,7 @@ Nous considérerons que le programme java à analyser en entrée se présente so
 
 Le code source est extrait au sein d'une classe Programme qui implémente une interface IProgramme. L'interface IProgramme contient une méthode `getAllClasses()` qui liste toutes les classes du code source. 
 
-Pour chaque classe listée précedemment, on créé un objet Classe, qui a pour méthodes `getAllInterfaces()` qui liste toutes les interfaces du code source, `getAllClassesHeritees()` qui liste toutes les classes héritées, `getAllAttributs()` qui liste tous les attributs d'une classe, `getName()` qui retourne le nom de la classe et `getMethodes`qui retourne toutes les méthode de la classe.
+Pour chaque classe listée précedemment, on créé un objet Classe, qui a pour méthodes `getAllInterfaces()` qui liste toutes les interfaces du code source, `getAllClassesHeritees()` qui liste toutes les classes héritées, `getAllAttributs()` qui liste tous les attributs d'une classe, `getName()` qui retourne le nom de la classe et `getMethodes()`qui retourne toutes les méthode de la classe.
 
 La classe Attribut qui implémente l'interface IAttribut ayant pour méthodes `getType()` et `getName()`. La méthode `getType()` retourne le type de l'attribut et la méthode `getNom()` retourne le nom de l'attribut.
 
