@@ -16,7 +16,7 @@ L'interface `Drawable` sera donc implémentée par ces deux procédés.
 Pour la création d'un format SVG nous utilisons la librairie [jFreeSVG](http://www.jfree.org/jfreesvg/) qui permet d'utiliser format
 de graphique 2D issu de java.awt et le transforme en fichier SVG. Cela demande de gérer une représentation graphique de bas niveau  - abscisses et ordonnées - pour dessiner et placer les objets du diagramme UML. 
 
-Afin d'organiser la représentation les relations d'héritages, d'aggrégation et de composition - qui implique des flèches - les classes seront organisés par étage, après pré-calcul de la taille de la réprésentation de chaque classe.
+Afin d'organiser la représentation les relations d'héritages, d'aggrégation et de composition - qui impliquent des flèches - les classes seront organisés par étage, après pré-calcul de la taille de la réprésentation de chaque classe.
 
 
 
