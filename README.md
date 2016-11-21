@@ -13,8 +13,7 @@ La classe Attribut qui implémente l'interface IAttribut ayant pour méthodes `g
 
 Ci joint un diagramme UML représentant l'extracteur de données:
 
-![diagrammeUML](ToUMLExecution.jpg)
-
+<img src="ToUMLExecution.jpg" align="center-right"/>
 
 Ces interfaces forment un modèle de données qui est ensuite représenté sous la forme d'un fichier SVG ou de texte.
 L'interface `Drawable` sera donc implémentée par ces deux procédés.
